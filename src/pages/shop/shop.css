@@ -1,0 +1,58 @@
+.shopTitle{
+    font-size: 50px;
+    text-align: center;
+    margin: 100px;
+    font-family: "Arial, Helvetica, sans-serif";
+}
+
+.products{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    place-items: center;
+}
+
+.product{
+    border-radius: 20px;
+    margin: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product img{
+    width: 500px;
+    border-radius: 20px;
+}
+
+.product .description{
+    text-align: center;
+    font-family: "Arial, Helvetica, sans-serif";
+    color: coral;
+}
+
+.product:hover {
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.addToCartBttn{
+    background-color: transparent;
+    border: 2px solid rgb(148, 216, 154);
+    min-width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+
+}
+
+.addToCartBttn:hover {
+    background-color: rgb(230, 149, 149);
+    color: white;
+    cursor: pointer;
+  }

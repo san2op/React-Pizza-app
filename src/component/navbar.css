@@ -1,0 +1,25 @@
+.navbar{
+    height: 80px;
+    width: 1420px;
+    background-color: aquamarine;
+    /* padding: 10px;
+    margin: 10px; */
+    /* position: sticky;
+    top: 0; */
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 2;
+}
+
+.links a{
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Arial, Helvetica, sans-serif";
+    color: black;
+    margin: 10px
+}
